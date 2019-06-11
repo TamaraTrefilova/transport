@@ -1,7 +1,10 @@
-#work-responses {
+#bad-response {
   display: none;
 }
 
-#fun-responses {
+#good-response {
   display: none;
+}
+#med-response {
+    display: none;
 }
