@@ -51,3 +51,21 @@ $(document).ready(function(){
     // $('#transportation_survey').hide();
   });
 });
+
+
+
+
+
+
+
+// var fact = (number * (number-1);
+
+
+function fact(number) {
+  if (number ===0) {
+      return 1;
+  }
+    return number*fact(number -1);
+
+}
+mult(5) => 5 + mult(4)
