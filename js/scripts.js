@@ -69,3 +69,27 @@ function fact(number) {
 
 }
 mult(5) => 5 + mult(4)
+
+
+//prime number
+var array = [];
+var prime = 2;
+var end = 100;
+
+for(var index = 0, num = prime; num<=end; index++){
+	array[index] = num;
+  num++;
+}
+
+
+
+for(var idx = 1; idx<array.length;idx++){
+  	for(var index = idx; index<=array.length; index++){
+      if(array[index]%prime==0){
+         array.splice(index,1);
+      }
+    }
+  
+  prime++;
+}
+console.log(array);
